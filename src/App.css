@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: 1.6rem !important;
+    font-weight: 700;
+    color: #565387 !important;
+}
+
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.menu_active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover{
+    color:  #3498db !important;
+}
+
+@media (max-width: 991px){
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+
+    .menu-active {
+        font-weight: bold;
+        border-bottom: none;
+    }
+}
+
+/* Landing Page */
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+}
+
+#header h1{
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #565387;
+}
+
+#header .brand_name{
+    color: #3498db;
+}
+
+#header h2{
+    color: #565387;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.img-fluid{
+    width: 90%;
+    height: 200px;
+}
+
+/* Service page */
+.service_div{
+    width: 100%;
+    height: 130vh;
+}
+
+/* Contact Page */
+
+.contact_div{
+    width: 100%;
+    height: 75vh;
+}
+
+/* Footer */
+footer p{
+    padding: 0;
+    margin: 0;
+}
